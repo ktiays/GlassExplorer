@@ -22,7 +22,7 @@
 @property (nonatomic, assign) BOOL excludingControlLensing;
 @property (nonatomic, assign) BOOL excludingControlDisplacement;
 @property (nonatomic, assign) BOOL flexible;
-@property (nonatomic, assign) NSInteger _flexVariant;
+@property (nonatomic, assign, setter=_setFlexVariant:) NSInteger _flexVariant;
 @property (nonatomic, assign) BOOL boostWhitePoint;
 @property (nonatomic, assign) BOOL allowsGrouping;
 @property (nonatomic, copy) NSString *backdropGroupName;
